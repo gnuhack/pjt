@@ -7,7 +7,7 @@ extends Node2D
 var timeDelay = 0
 var label = null
 var contador = 0
-var frase1 = "Bienvenido detective Pajutimet"
+var frase1 = "Bienvenida detective Pajutimet"
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
