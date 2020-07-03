@@ -39,7 +39,15 @@ bbcode_text = "
 
 
 
-[center][matrix clean=2.0 dirty=1.0 span=50]ira lo que te has perdido jorgito tonto[/matrix][/center]"
+[center]
+
+[matrix clean=2.0 dirty=1.0 span=50]ira lo que[/matrix]
+[tornado radius=5 freq=2] te has perdido [/tornado]
+[shake rate=5 level=10]jorgito[/shake]
+[fade start=1 length=11]por no venir[/fade]
+[rainbow freq=0.2 sat=10 val=20]hoy ancá lui[/rainbow]
+[/center]
+"
 text = "
 
 
@@ -49,7 +57,15 @@ text = "
 
 
 
-ira lo que te has perdido jorgito tonto"
+
+
+ira lo que
+ te has perdido 
+jorgito
+por no venir
+hoy ancá lui
+
+"
 custom_effects = [ SubResource( 1 ) ]
 __meta__ = {
 "_edit_use_anchors_": false
